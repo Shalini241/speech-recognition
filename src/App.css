@@ -1,0 +1,85 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  position: relative;
+  border: 1px solid #f2efe2;
+  width: 80vw;
+  max-width: 100vw;
+  height: 60vh;
+  max-height: 100vh;
+  margin: 0 auto;
+  border-radius: 0.1rem;
+  background: #f2efe2;
+  padding: 0.2rem 1rem;
+  color: #1e2440;
+  overflow: scroll;
+  margin-top: 10vh;
+}
+
+.text-box {
+  height:40vh;
+  max-height: 100vh;
+  overflow: scroll;
+}
+
+.text-box:focus {
+  outline: none;
+}
+
+.text-box p {
+  border-bottom: 1px dotted black;
+  margin: 0px !important;
+}
+
+.startButton {
+  width: 8vw;
+  padding: 5px 10px 5px 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  outline: none;
+  cursor: pointer;
+  bottom: 1vh;
+  border-radius: 1rem;
+}
+
+.stopButton {
+  width: 8vw;
+  padding: 5px 10px 5px 5px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Shadows Into Light', cursive;
+  outline: none;
+  cursor: pointer;
+  bottom: 1vh;
+  border-radius: 1rem;
+  margin-left: 10px;
+}
+
+.footer-container {
+  position: relative;
+  border: 1px solid #f2efe2;
+  width: 80vw;
+  max-width: 100vw;
+  height: 10vh;
+  border-radius: 0.1rem;
+  background: #f2efe2;
+  margin-top: 10vh;
+}
